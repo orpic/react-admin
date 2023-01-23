@@ -2,7 +2,6 @@ import { ColorModeContext, useMode } from "./themes";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 
 import Topbar from "./scenes/global/Topbar";
-import "./App.css";
 
 function App() {
   const [theme, colorMode] = useMode();
